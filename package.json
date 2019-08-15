@@ -1,0 +1,19 @@
+{
+  "name": "mercuryshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercuryshop/mercuryshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercuryshop/mercuryshop/issues"
+  },
+  "homepage": "https://github.com/mercuryshop/mercuryshop#readme"
+}
