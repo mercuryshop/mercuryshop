@@ -18,7 +18,11 @@
   "homepage": "https://github.com/mercuryshop/mercuryshop#readme",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
     "react": "^16.9.0",
     "react-redux": "^7.1.0"
+=======
+    "morgan": "^1.9.1"
+>>>>>>> 83867c02351f9716f7c30794867b8f14aa921bd1
   }
 }
