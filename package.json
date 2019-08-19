@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mercuryshop/mercuryshop#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-redux": "^7.1.0"
   }
 }
