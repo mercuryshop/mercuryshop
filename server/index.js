@@ -11,6 +11,8 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(express.static(path.join(__dirname, '..', '/public')))
 
+app.use('/api', require('./api'))
+
 app.listen(PORT, () => {
     console.log(`Listening in on port ${PORT}`)
 })
