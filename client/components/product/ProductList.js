@@ -7,13 +7,13 @@ class ProductList extends Component {
         this.props.getAllProducts()
     }
 
-    render (){
+    render() {
         const {products} = this.props
         return(
             <div>
-            {products.map(product => {
-               return <div>{product.name}</div>
-            })}
+                {products.map(product => {
+                return <div>{product.name}</div>
+                })}
             </div>
         )
     }

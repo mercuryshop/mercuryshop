@@ -190,7 +190,7 @@ function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Mercury");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Mercury Shop");
     }
   }]);
 
