@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import connect from 'react-redux'
+import {connect} from 'react-redux'
 import {getAllProducts} from '../../store/reducer/product'
 
 class ProductList extends Component {
@@ -12,7 +12,7 @@ class ProductList extends Component {
         return(
             <div>
             {products.map(product => {
-                <div>hi</div>
+                <div>{product.id}</div>
             })}
             </div>
         )
