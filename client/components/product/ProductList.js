@@ -12,7 +12,7 @@ class ProductList extends Component {
         return(
             <div>
             {products.map(product => {
-                <div>{product.id}</div>
+               return <div>{product.name}</div>
             })}
             </div>
         )
